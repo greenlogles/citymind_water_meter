@@ -64,7 +64,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         entity_type=EntityType.METER,
         icon="mdi:meter-gas",
         state_class=SensorStateClass.TOTAL,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         reset_policy=ResetPolicy.MONTHLY,
     ),
     IntegrationSensorEntityDescription(
@@ -72,7 +72,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         entity_type=EntityType.METER,
         device_class=SensorDeviceClass.WATER,
         state_class=SensorStateClass.TOTAL,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         reset_policy=ResetPolicy.MONTHLY,
     ),
     IntegrationSensorEntityDescription(
@@ -80,7 +80,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         entity_type=EntityType.METER,
         device_class=SensorDeviceClass.WATER,
         state_class=SensorStateClass.TOTAL,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         reset_policy=ResetPolicy.MONTHLY,
     ),
     IntegrationSensorEntityDescription(
@@ -88,7 +88,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         entity_type=EntityType.METER,
         device_class=SensorDeviceClass.WATER,
         state_class=SensorStateClass.TOTAL,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         reset_policy=ResetPolicy.DAILY,
     ),
     IntegrationSensorEntityDescription(
@@ -96,7 +96,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         entity_type=EntityType.METER,
         device_class=SensorDeviceClass.WATER,
         state_class=SensorStateClass.TOTAL,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         reset_policy=ResetPolicy.DAILY,
     ),
     IntegrationSensorEntityDescription(
@@ -104,7 +104,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         entity_type=EntityType.METER,
         device_class=SensorDeviceClass.WATER,
         state_class=SensorStateClass.TOTAL,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         reset_policy=ResetPolicy.MONTHLY,
     ),
     IntegrationSensorEntityDescription(
@@ -112,7 +112,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         entity_type=EntityType.METER,
         device_class=SensorDeviceClass.WATER,
         state_class=SensorStateClass.TOTAL,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         reset_policy=ResetPolicy.MONTHLY,
     ),
     IntegrationSensorEntityDescription(
@@ -183,7 +183,7 @@ ENTITY_DESCRIPTIONS: list[IntegrationEntityDescription] = [
         native_min_value=0,
         native_max_value=100,
         entity_category=EntityCategory.CONFIG,
-        native_unit_of_measurement=UnitOfVolume.CUBIC_METERS,
+        native_unit_of_measurement=UnitOfVolume.Gallons,
         icon="mdi:cup-water",
     ),
     IntegrationSensorEntityDescription(
