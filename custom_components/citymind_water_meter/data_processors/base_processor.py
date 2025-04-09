@@ -18,7 +18,7 @@ _LOGGER = logging.getLogger(__name__)
 
 class BaseProcessor:
     _api_data: dict | None = None
-    _account_number: int | None = None
+    _account_number: str | None = None
     _first_name: str | None = None
     _last_name: str | None = None
     _today_iso: str | None = None
@@ -59,7 +59,7 @@ class BaseProcessor:
         first_name = me_section.get(ME_FIRST_NAME)
         last_name = me_section.get(ME_LAST_NAME)
 
-        self._account_number = int(account_number_str)
+        self._account_number = account_number_str
         self._first_name = first_name
         self._last_name = last_name
 
