@@ -17,7 +17,7 @@ ACTION_ENTITY_TURN_ON = "turn_on"
 ACTION_ENTITY_TURN_OFF = "turn_off"
 ENTITY_CONFIG_ENTRY_ID = "entry_id"
 DOMAIN = "citymind_water_meter"
-DEFAULT_NAME = "CityMind"
+DEFAULT_NAME = "MyWaterAdvisor"
 
 PROVIDER = "Read Your Meter Pro"
 
@@ -219,7 +219,7 @@ DEFAULT_METER_CONFIG = {
     STORAGE_DATA_METER_SEWAGE_COST: DEFAULT_SEWAGE_COST,
 }
 
-UNIT_COST = "ILS/m³"
+UNIT_COST = "ILS/gal"
 
 ALERT_MAPPING = {
     EntityKeys.ALERT_LEAK_SMS: {
