@@ -43,9 +43,9 @@ UPDATE_DATA_INTERVALS: dict[bool | None, timedelta] = {
     False: WEEKDAY_UPDATE_DATA_INTERVAL,
 }
 
-API_URL = "https://eu-customerportal-api.harmonyencoremdm.com"
+API_URL = "https://customerportal-api.harmonyencoremdm.com"
 
-CITY_MIND_WEBSITE = "https://rym-pro.com"
+CITY_MIND_WEBSITE = "https://mywateradvisor2.com/"
 
 ENDPOINT_PARAMETER_METER_ID = "meter_id"
 ENDPOINT_PARAMETER_YESTERDAY = "yesterday"
